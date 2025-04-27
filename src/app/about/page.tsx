@@ -19,7 +19,7 @@ export default function About() {
                             About Motion
                         </h1>
                         <p className="section-description mt-5">
-                            We're on a mission to help teams work more efficiently and achieve their goals with powerful, intuitive tools.
+                            We&apos;re on a mission to help teams work more efficiently and achieve their goals with powerful, intuitive tools.
                         </p>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ export default function About() {
                             Meet Our Team
                         </h2>
                         <p className="section-description mt-5">
-                            The talented people behind Motion's success
+                            The talented people behind Motion&apos;s success
                         </p>
                     </div>
 
@@ -172,7 +172,7 @@ export default function About() {
                             Join our team
                         </h2>
                         <p className="section-description mt-5">
-                            We're always looking for talented people to help us build the future of productivity
+                            We&apos;re always looking for talented people to help us build the future of productivity
                         </p>
 
                         <div className="flex justify-center mt-10">

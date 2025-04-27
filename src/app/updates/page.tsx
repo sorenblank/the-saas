@@ -24,7 +24,7 @@ export default function Updates() {
             title: "Motion 2.0 - Major Platform Redesign",
             date: "June 15, 2024",
             category: "major",
-            description: "We're excited to announce the launch of Motion 2.0, featuring a complete UI redesign, improved performance, and several new features to enhance your productivity.",
+            description: "We&apos;re excited to announce the launch of Motion 2.0, featuring a complete UI redesign, improved performance, and several new features to enhance your productivity.",
             features: [
                 "Completely redesigned user interface",
                 "Improved task management system",
@@ -49,7 +49,7 @@ export default function Updates() {
             title: "Mobile App Improvements",
             date: "April 10, 2024",
             category: "improvement",
-            description: "We've made significant improvements to our mobile experience, ensuring you can stay productive on the go with better performance and new features.",
+            description: "We&apos;ve made significant improvements to our mobile experience, ensuring you can stay productive on the go with better performance and new features.",
             features: [
                 "Offline mode for working without internet",
                 "Improved task creation flow",
@@ -88,7 +88,7 @@ export default function Updates() {
         {
             title: "AI-Powered Task Recommendations",
             quarter: "Q3 2024",
-            description: "Intelligent suggestions for task prioritization and resource allocation based on your team's work patterns and project deadlines.",
+            description: "Intelligent suggestions for task prioritization and resource allocation based on your team&apos;s work patterns and project deadlines.",
             status: "in-progress"
         },
         {
@@ -132,7 +132,7 @@ export default function Updates() {
                     <div className="section-heading">
                         <div className="flex justify-center">
                             <div className="tag">
-                                What's New
+                                What&apos;s New
                             </div>
                         </div>
                         <h1 className="section-title mt-5">
@@ -206,7 +206,7 @@ export default function Updates() {
 
                                         {update.features && (
                                             <div className="mb-6">
-                                                <h4 className="font-medium mb-3">What's included:</h4>
+                                                <h4 className="font-medium mb-3">What&apos;s included:</h4>
                                                 <ul className="space-y-2">
                                                     {update.features.map((feature, featureIndex) => (
                                                         <li key={featureIndex} className="flex items-start gap-3 text-[#010D3E]">
@@ -250,7 +250,7 @@ export default function Updates() {
                             Product Roadmap
                         </h2>
                         <p className="section-description mt-5">
-                            Get a sneak peek at what we're working on and what's coming next
+                            Get a sneak peek at what we&apos;re working on and what&apos;s coming next
                         </p>
                     </div>
 
@@ -317,7 +317,7 @@ export default function Updates() {
                             </button>
                         </form>
                         <p className="text-sm text-[#010D3E]/60 mt-3">
-                            We'll never share your email with anyone else.
+                            We&apos;ll never share your email with anyone else.
                         </p>
                     </div>
                 </div>
@@ -336,7 +336,7 @@ export default function Updates() {
                             Try the latest version today
                         </h2>
                         <p className="section-description mt-5">
-                            Experience all the new features and improvements we've been working on
+                            Experience all the new features and improvements we&apos;ve been working on
                         </p>
 
                         <div className="flex justify-center mt-10">

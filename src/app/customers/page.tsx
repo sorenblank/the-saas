@@ -76,7 +76,7 @@ export default function Customers() {
             image: avatar1
         },
         {
-            quote: "We've tried numerous productivity tools, but Motion stands out with its seamless integration capabilities and customizable workflows.",
+            quote: "We&apos;ve tried numerous productivity tools, but Motion stands out with its seamless integration capabilities and customizable workflows.",
             author: "Morgan Lee",
             position: "CTO, Quantum Innovations",
             image: avatar3
@@ -88,7 +88,7 @@ export default function Customers() {
             image: avatar4
         },
         {
-            quote: "Motion's analytics have given us unprecedented visibility into our workflow bottlenecks, helping us optimize our processes continuously.",
+            quote: "Motion&apos;s analytics have given us unprecedented visibility into our workflow bottlenecks, helping us optimize our processes continuously.",
             author: "Taylor Kim",
             position: "Director of Engineering, Celestial Systems",
             image: avatar2
@@ -217,7 +217,7 @@ export default function Customers() {
                             What our customers say
                         </h2>
                         <p className="section-description mt-5">
-                            Hear directly from the people who use Motion every day
+                            See what our customers are saying about &quot;Motion&quot;
                         </p>
                     </div>
 
@@ -238,7 +238,7 @@ export default function Customers() {
                                     </div>
                                 </div>
                                 <p className="text-[#010D3E] text-lg leading-relaxed">
-                                    "{testimonial.quote}"
+                                    &quot;{testimonial.quote}&quot;
                                 </p>
                             </div>
                         ))}

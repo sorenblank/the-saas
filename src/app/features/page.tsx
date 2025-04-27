@@ -126,7 +126,7 @@ export default function Features() {
                                     Progress Analytics
                                 </h3>
                                 <p className="mt-6 text-[#010D3E] text-lg leading-relaxed">
-                                    Gain insights into your team's performance with comprehensive analytics and reporting. Identify bottlenecks, track productivity trends, and make data-driven decisions.
+                                    Gain insights into your team&apos;s performance with comprehensive analytics and reporting. Identify bottlenecks, track productivity trends, and make data-driven decisions.
                                 </p>
                                 <ul className="mt-6 space-y-3">
                                     {["Performance dashboards", "Custom reports", "Productivity metrics", "Time tracking"].map((item, index) => (
