@@ -7,6 +7,7 @@ import NoodleImage from "@/assets/noodle.png";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import Link from "next/link";
 
 export const Hero = () => {
   const heroRef = useRef(null);
@@ -36,11 +37,11 @@ export const Hero = () => {
             </p>
 
             <div className="flex gap-1 items-center mt-[30px]">
-              <button className="btn btn-primary">Get for free</button>
-              <button className="btn btn-text gap-1 hover:gap-3 transition-all duration-100 ease-in-out">
+              <Link href="https://sorenblank.com" className="btn btn-primary">Get for free</Link>
+              <Link href="https://sorenblank.com" className="btn btn-text gap-1 hover:gap-3 transition-all duration-100 ease-in-out">
                 <span>Learn more</span>
                 <ArrowIcon className="h-5 w-5" />
-              </button>
+              </Link>
             </div>
           </div>
 
