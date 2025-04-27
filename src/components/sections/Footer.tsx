@@ -5,6 +5,7 @@ import SocialInsta from "@/assets/social-insta.svg";
 import SocialLinkedIn from "@/assets/social-linkedin.svg";
 import SocialPin from "@/assets/social-pin.svg";
 import SocialYoutube from "@/assets/social-youtube.svg";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -16,20 +17,26 @@ export const Footer = () => {
 
 
         <nav className="flex flex-col gap-6 mt-6 md:flex-row md:justify-center">
-          <a href="#">About</a>
-          <a href="#">Features</a>
-          <a href="#">Customers</a>
-          <a href="#">Pricing</a>
-          <a href="#">Help</a>
-          <a href="#">Careers</a>
+          <a href="/about">About</a>
+          <a href="/features">Features</a>
+          <a href="/customers">Customers</a>
+          <a href="/help">Help</a>
         </nav>
 
         <div className="flex justify-center gap-6 mt-6">
-          <SocialX />
-          <SocialInsta />
-          <SocialLinkedIn />
-          <SocialPin />
-          <SocialYoutube />
+          <Link href="https://x.com/sorenblank">
+            <SocialX />
+          </Link>
+
+          <Link href="https://instagram.com/sorenblank_">
+            <SocialInsta />
+          </Link>
+
+          <Link href="https://linkedin.com/in/sorenblank">
+            <SocialLinkedIn />
+          </Link>
+
+
         </div>
 
         <p className="mt-6">&copy; 2024 Motion, Inc. All rights reserved. Created by <a href="https://sorenblank.com" className="underline underline-offset-4">Soren</a>.</p>
