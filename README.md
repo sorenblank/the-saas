@@ -1,6 +1,6 @@
-# Nigga SaaS Landing Page
+# The SaaS Landing Page
 
-![Nigga SaaS Landing Page Preview](/public/og-image.png)
+![The SaaS Landing Page Preview](/public/og-image.png)
 
 A modern, responsive SaaS landing page built with Next.js, Tailwind CSS, and Framer Motion. This project showcases a sleek design with smooth animations and a mobile-first approach.
 
@@ -15,7 +15,7 @@ A modern, responsive SaaS landing page built with Next.js, Tailwind CSS, and Fra
 
 ## 🚀 Live Demo
 
-Check out the live demo of the project: [Nigga SaaS Demo](https://niggasaas.vercel.app/)
+Check out the live demo of the project: [The SaaS Demo](https://thesaas.vercel.app/)
 
 ## 🛠 Tech Stack
 
@@ -37,13 +37,13 @@ Check out the live demo of the project: [Nigga SaaS Demo](https://niggasaas.verc
 1. Clone the repository:
 
    ```
-   git clone https://github.com/sorenblank/nigga-saas.git
+   git clone https://github.com/sorenblank/the-saas.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd nigga-saas
+   cd the-saas
    ```
 
 3. Install dependencies:

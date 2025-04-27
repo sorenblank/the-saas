@@ -6,19 +6,19 @@ import clsx from "clsx";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nigga Saas Landing Page",
+  title: "The Saas Landing Page",
   description: "A modern, responsive SaaS landing page built with Next.js, Tailwind CSS, and Framer Motion. This project showcases a sleek design with smooth animations and a mobile-first approach.",
   openGraph: {
-    title: "Nigga Saas Landing Page",
+    title: "The Saas Landing Page",
     description: "A modern, responsive SaaS landing page built with Next.js, Tailwind CSS, and Framer Motion. This project showcases a sleek design with smooth animations and a mobile-first approach.",
     type: "website",
     locale: "en_US",
     images: [
       {
-        url: "https://niggasaas.vercel.app/og-image.png",
+        url: "https://thesaas.vercel.app/og-image.png",
         width: 1784,
         height: 892,
-        alt: "niggasaas"
+        alt: "thesaas"
       }
     ]
   },
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: [
       {
-        url: "https://niggasaas.vercel.app/og-image.png",
-        alt: "niggasaas"
+        url: "https://thesaas.vercel.app/og-image.png",
+        alt: "thesaas"
       }
     ]
   },
